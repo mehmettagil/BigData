@@ -1,5 +1,5 @@
 
-// 1.soru 5000 den az kapasiteli bölgeleri bulmak için 
+-- 1.soru 5000 den az kapasiteli bölgeleri bulmak için 
 SELECT regions.name, SUM(info.capacity) AS total_capacity
 FROM `bigquery-public-data.san_francisco_bikeshare.bikeshare_station_info` AS info
 LEFT JOIN `bigquery-public-data.san_francisco_bikeshare.bikeshare_regions` AS regions
