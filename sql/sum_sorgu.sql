@@ -1,0 +1,1 @@
+select SUM(capacity) AS total_capacity from ⁠ bigquery-public-data.san_francisco_bikeshare.bikeshare_station_info ⁠
